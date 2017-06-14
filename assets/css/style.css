@@ -1,0 +1,279 @@
+body{
+	padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/concrete_seamless.png");
+}
+
+h1{
+	font-size: 1.8em;
+}
+
+h3{
+	font-size: 1.2em;
+}
+
+hr {
+	
+	clear:both;
+	border-style: solid;
+	border-color: lightgrey;
+    border-width: 1.8px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover {
+	text-shadow: 0.5px 0.5px grey;
+    background-color: transparent;    
+}
+
+input{
+	line-height: 2em;
+	padding-left: 5px;
+	font-size: 0.8em;
+}
+
+/* *****id section***** */
+
+#header ul li {
+	display: inline;
+}
+
+
+#header-name {
+	float: left;
+	width: 175px;
+	margin-left: 200px;
+	font-size: xx-large;
+	font-family: Georgia,"Times New Roman", Times, serif;
+	padding: 24px;	
+}
+
+#header-navigation{	
+	float: left;
+	display: inline;	
+	margin-left:580px;
+	margin-top: 30px;
+	position: relative;
+
+}
+
+#header-navigation ul li a{
+	margin: 0 auto;
+	display:inline;		
+}
+
+#header-navigation ul li {	
+	padding: 8px;
+}
+
+
+
+#header {	
+	width: 100%;
+	height: 85px;
+	background-image: none;
+	margin: 0 auto;	
+	border: 2px solid #cccccc;
+	background-color: #ffffff;
+}
+
+#header::after{
+	content: "";
+  display: table;
+  clear:both;
+}
+
+
+#main-container{
+	border-color: #dddddd;
+	background-repeat: all;
+	padding-top: 38px;
+	padding-left: 100px;
+	padding-bottom: 50px;
+	max-height: 1500px;
+}
+
+#container{
+	width: 100%;
+}
+
+
+#bio-image{
+	float:left;
+	width: 150px;
+	height: 150px;
+	margin-top: 0.6em;
+	margin-right: 1.5em;
+	margin-bottom: 0.5em;		
+}
+
+/*background color and text settings for Header Name, buttons and portfolio image overlay banners*/
+#header-name, .button, .overlay {
+	background-color: #4AAAA5; 
+	color: #FFFFFF;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* *******Class section****** */
+
+.header-navigation-li-vertical-spacer{
+	 line-height: 2em;
+     color: #A5B0B9;  
+}
+
+.header-navigation-li{
+	padding-top: 20px;
+}
+
+
+.main-info, .contact-info {
+	float: left;
+	display:inline;
+	margin-left: 100px;
+	padding: 30px 20px 20px 20px;
+	width: 650px;
+	border: 2px solid #dddddd;
+	background-color:#ffffff;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.main-info p{
+	line-height: 2.1em;
+}
+
+.main-info hr{
+	clear:both;
+}
+
+.side-bar{
+	float:right;
+	margin-right: 250px;
+	width:270px;
+	height: 150px;
+	display:inline;
+	padding: 30px 8px 8px 8px;
+	background-color:#ffffff;
+	box-shadow: 10px 10px 5px #888888;
+	border: 2px solid #dddddd;
+	text-align: center;
+}
+
+.side-bar hr{
+	width: 190px;	
+}
+
+.text-styles{
+	color: #777777;
+	/*color: #cccccc;*/
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: large;
+	padding: 10px;
+}
+
+.header-styles{
+	font-weight:bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:#4aaaa5;
+}
+
+.site-footer{
+	background-color: #666666;
+	border-top: 10px solid #4AAAA5;
+	width: 100%;
+    bottom: 0;
+    height: 80px; 
+	text-align: center;
+	display: table;
+	position: static;
+    left: 0;
+}
+
+.site-footer span{
+	display: table-cell;
+	vertical-align: middle;
+	color: #FFFFFF;
+}
+
+.button{
+	border: none;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 125px;
+    height: 40px
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+.portfolio-grid{
+	display: grid;
+	grid-template-columns: 100px 100px;
+	grid-gap: 50px 210px;
+	padding: 30px;
+    background-color: #fff;
+  	color: #444;
+}
+
+.image-wrapper{
+	display: inline-block;
+  	margin-top: 25px;
+  	position: relative; 
+	width:100%;
+	height:100%;
+}
+
+.portfolio-grid-image{
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;	
+}
+
+.image-wrapper h1.ribbon{	
+	position: relative;
+	top: 124px;
+  	left:0px;
+ }
+
+div.image-wrapper h1.ribbon{
+     background: #4AAAA5; 
+     color: #FFFFFF;
+     /*background: -moz-linear-gradient(top, #4AAAA5, #c8c8c8);*/
+     /*background: -webkit-gradient(linear, left top, left bottom, from(#4AAAA5), to(#c8c8c8));*/
+     padding: 10px 20px;
+     margin-left: -20px;
+     margin-top: 0;
+     position: absolute;
+     width: 240px;
+ 
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+       box-shadow: 3px 3px 3px #888888;
+    text-shadow: 0 1px 0 white;
+}
+.arrow {
+     width: 0; height: 0;
+     line-height: 0;
+     border-left: 20px solid transparent;
+     border-top: 10px solid #296562;
+	 top: 101%;
+     left: 0;
+     position: absolute;
+}
+ 
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display:table;
+  
+}
+
+.clearfix::after {
+  clear: both;
+}
